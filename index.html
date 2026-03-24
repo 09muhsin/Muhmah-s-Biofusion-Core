@@ -3,44 +3,44 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Muhmah's BioFusionCore — Product Showcase</title>
+<title>Muhah - BioFusionCore — Product Showcase</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#ffffff;
-  --s1:#f0f4fa;
-  --s2:#e4ecf8;
-  --navy:#0a1a3a;
-  --navy2:#0f2448;
-  --navy3:#162e58;
+  --bg:#08112a;
+  --s1:#0d1a38;
+  --s2:#122048;
+  --navy:#0d1a38;
+  --navy2:#1a3060;
+  --navy3:#1e3870;
   --gold:#b8860b;
   --gold2:#d4a017;
   --gold3:#f0c030;
-  --gold-light:#fdf3d0;
-  --text:#0a1a3a;
-  --muted:#4a6090;
-  --border:#c8d8f0;
-  --border2:#a0b8e0;
+  --gold-light:#1e2a10;
+  --text:#ffffff;
+  --muted:#8aabcc;
+  --border:#1e3870;
+  --border2:#2a4888;
   --mono:'DM Mono',monospace;
   --display:'Unbounded',sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{background:var(--bg);color:var(--text);font-family:var(--mono);overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(168,192,232,.15) 1px,transparent 1px),linear-gradient(90deg,rgba(168,192,232,.15) 1px,transparent 1px);background-size:36px 36px;pointer-events:none;z-index:0;}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(30,56,112,.4) 1px,transparent 1px),linear-gradient(90deg,rgba(30,56,112,.4) 1px,transparent 1px);background-size:36px 36px;pointer-events:none;z-index:0;}
 .page{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:0 28px 120px;}
 
 .hero{text-align:center;padding:80px 0 60px;}
 .hero-eyebrow{font-size:10px;letter-spacing:5px;text-transform:uppercase;color:var(--muted);margin-bottom:16px;}
-.hero-title{font-family:var(--display);font-size:clamp(40px,7vw,88px);font-weight:900;letter-spacing:-3px;line-height:.95;color:var(--navy);margin-bottom:16px;}
+.hero-title{font-family:var(--display);font-size:clamp(40px,7vw,88px);font-weight:900;letter-spacing:-3px;line-height:.95;color:#ffffff;margin-bottom:16px;}
 .hero-title em{font-style:normal;color:var(--gold);}
-.hero-sub{font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;}
+.hero-sub{font-size:11px;letter-spacing:3px;color:#8aabcc;text-transform:uppercase;}
 .hero-pills{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:24px;}
-.pill{font-size:10px;padding:5px 16px;border:1.5px solid var(--gold2);border-radius:20px;color:var(--navy);background:var(--gold-light);letter-spacing:1px;}
+.pill{font-size:10px;padding:5px 16px;border:1.5px solid var(--gold2);border-radius:20px;color:#ffffff;background:#1e2a10;letter-spacing:1px;}
 
 .sec-header{text-align:center;padding:80px 0 48px;}
 .sec-tag{font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;font-weight:500;}
-.sec-title{font-family:var(--display);font-size:clamp(28px,4vw,48px);font-weight:700;letter-spacing:-2px;color:var(--navy);line-height:1.1;}
+.sec-title{font-family:var(--display);font-size:clamp(28px,4vw,48px);font-weight:700;letter-spacing:-2px;color:#ffffff;line-height:1.1;}
 .sec-line{width:48px;height:3px;background:var(--gold3);margin:16px auto 0;border-radius:2px;}
 
 .models-row{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:32px;}
@@ -51,8 +51,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .model-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold3),transparent);}
 
 .model-tag{font-size:9px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;display:block;}
-.model-name{font-family:var(--display);font-size:26px;font-weight:700;letter-spacing:-1px;color:#fff;margin-bottom:4px;}
-.model-desc{font-size:10px;color:#5a7aa0;letter-spacing:1px;margin-bottom:32px;}
+.model-name{font-family:var(--display);font-size:26px;font-weight:700;letter-spacing:-1px;color:#ffffff;margin-bottom:4px;}
+.model-desc{font-size:10px;color:#8aabcc;letter-spacing:1px;margin-bottom:32px;}
 
 /* HOME DEVICE */
 .home-wrap{display:flex;justify-content:center;margin-bottom:32px;}
@@ -102,13 +102,13 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 
 /* SPECS */
 .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
-.spec-item{background:#0a1828;border-radius:8px;padding:10px 12px;border:1px solid var(--navy3);}
-.spec-label{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#4a6090;margin-bottom:3px;}
-.spec-val{font-size:12px;color:#c8d8f0;}
+.spec-item{background:#0d1a38;border-radius:8px;padding:10px 12px;border:1px solid #1e3870;}
+.spec-label{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#8aabcc;margin-bottom:3px;}
+.spec-val{font-size:12px;color:#ffffff;}
 .plan-banner{margin-top:16px;padding:14px 16px;background:linear-gradient(135deg,#0f2448,#1a3460);border-radius:12px;border:1px solid var(--gold);display:flex;justify-content:space-between;align-items:center;}
 .pb-price{font-size:22px;font-weight:500;color:var(--gold3);font-family:var(--display);}
-.pb-price span{font-size:11px;color:#4a6090;font-family:var(--mono);}
-.pb-detail{text-align:right;font-size:10px;color:#4a6090;line-height:1.7;}
+.pb-price span{font-size:11px;color:#8aabcc;font-family:var(--mono);}
+.pb-detail{text-align:right;font-size:10px;color:#8aabcc;line-height:1.7;}
 
 /* CARTRIDGES */
 .cartridge-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px;}
@@ -124,10 +124,10 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .cart-ch{width:6px;height:28px;border-radius:2px;border:1px solid;}
 .cart-connector{position:absolute;bottom:0;left:4px;right:4px;height:10px;border-radius:0 0 3px 3px;}
 .cart-type{font-size:10px;letter-spacing:2px;text-transform:uppercase;margin-bottom:5px;font-weight:500;}
-.cart-name{font-size:13px;font-weight:500;color:#fff;margin-bottom:5px;font-family:var(--display);}
-.cart-who{font-size:10px;color:#4a6090;line-height:1.6;margin-bottom:8px;}
+.cart-name{font-size:13px;font-weight:500;color:#ffffff;margin-bottom:5px;font-family:var(--display);}
+.cart-who{font-size:10px;color:#8aabcc;line-height:1.6;margin-bottom:8px;}
 .cart-price{font-size:14px;font-weight:500;color:var(--gold3);}
-.cart-cost{font-size:9px;color:#4a6090;margin-top:2px;}
+.cart-cost{font-size:9px;color:#8aabcc;margin-top:2px;}
 
 /* APP */
 .app-phones{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-bottom:40px;}
@@ -139,87 +139,87 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .phone-screen{position:absolute;inset:0;overflow:hidden;}
 
 .app-screen{position:absolute;inset:0;display:flex;flex-direction:column;background:#030810;}
-.ha-header{padding:32px 14px 12px;border-bottom:1px solid #0f2040;}
-.ha-greet{font-size:13px;font-weight:500;color:#fff;}
-.ha-sub{font-size:8px;color:#4a6090;margin-top:2px;letter-spacing:.5px;}
+.ha-header{padding:32px 14px 12px;border-bottom:1px solid #1a3060;}
+.ha-greet{font-size:13px;font-weight:500;color:#ffffff;}
+.ha-sub{font-size:8px;color:#8aabcc;margin-top:2px;letter-spacing:.5px;}
 .ha-members{padding:10px 14px;display:flex;gap:10px;overflow-x:auto;}
 .ha-member{flex-shrink:0;text-align:center;}
 .ha-avatar{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:500;margin:0 auto 4px;border:2px solid;}
-.ha-mname{font-size:7px;color:#4a6090;}
-.ha-last-test{margin:0 12px 10px;background:#0a1828;border-radius:10px;padding:10px 12px;border:1px solid #1a3060;}
-.hlt-label{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#4a6090;margin-bottom:6px;}
-.hlt-row{display:flex;align-items:center;gap:8px;padding:3px 0;border-bottom:1px solid #0f2040;}
+.ha-mname{font-size:7px;color:#8aabcc;}
+.ha-last-test{margin:0 12px 10px;background:#0d1a38;border-radius:10px;padding:10px 12px;border:1px solid #1a3060;}
+.hlt-label{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#8aabcc;margin-bottom:6px;}
+.hlt-row{display:flex;align-items:center;gap:8px;padding:3px 0;border-bottom:1px solid #1a3060;}
 .hlt-row:last-child{border:none;}
-.hlt-who{font-size:9px;flex:1;color:#c8d8f0;}
+.hlt-who{font-size:9px;flex:1;color:#ffffff;}
 .hlt-result{font-size:8px;padding:1px 7px;border-radius:10px;}
-.hlt-when{font-size:7px;color:#4a6090;}
+.hlt-when{font-size:7px;color:#8aabcc;}
 .ha-btn{margin:0 12px 10px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--gold),var(--gold2));display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;color:var(--navy);letter-spacing:.5px;}
 .ha-history{margin:0 12px;}
-.hah-label{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#4a6090;margin-bottom:6px;}
-.hah-row{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid #0f2040;}
+.hah-label{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#8aabcc;margin-bottom:6px;}
+.hah-row{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid #1a3060;}
 .hah-row:last-child{border:none;}
-.hah-who{font-size:9px;flex:1;color:#c8d8f0;}
+.hah-who{font-size:9px;flex:1;color:#ffffff;}
 .hah-dis{font-size:9px;}
-.hah-date{font-size:7px;color:#4a6090;}
+.hah-date{font-size:7px;color:#8aabcc;}
 
-.scan-header{padding:32px 14px 10px;border-bottom:1px solid #0f2040;}
-.scan-h-title{font-size:13px;font-weight:500;color:#fff;}
-.scan-h-sub{font-size:8px;color:#4a6090;margin-top:2px;letter-spacing:.5px;}
+.scan-header{padding:32px 14px 10px;border-bottom:1px solid #1a3060;}
+.scan-h-title{font-size:13px;font-weight:500;color:#ffffff;}
+.scan-h-sub{font-size:8px;color:#8aabcc;margin-top:2px;letter-spacing:.5px;}
 .scan-circle-wrap{flex:1;display:flex;align-items:center;justify-content:center;}
 .scan-circle{width:110px;height:110px;border-radius:50%;border:2px solid #1a3060;display:flex;align-items:center;justify-content:center;position:relative;}
 .scan-circle::before{content:'';position:absolute;inset:-6px;border-radius:50%;border:2px solid transparent;border-top-color:var(--gold3);animation:spin 2s linear infinite;}
 @keyframes spin{to{transform:rotate(360deg)}}
 .scan-pct{font-family:var(--display);font-size:22px;font-weight:700;color:#fff;text-align:center;line-height:1;}
-.scan-pct span{display:block;font-size:8px;color:#4a6090;font-family:var(--mono);margin-top:3px;letter-spacing:1px;}
+.scan-pct span{display:block;font-size:8px;color:#8aabcc;font-family:var(--mono);margin-top:3px;letter-spacing:1px;}
 .scan-sensors{padding:0 12px 12px;}
-.ss-title{font-size:7px;letter-spacing:1px;color:#4a6090;text-transform:uppercase;margin-bottom:7px;}
+.ss-title{font-size:7px;letter-spacing:1px;color:#8aabcc;text-transform:uppercase;margin-bottom:7px;}
 .ss-row{display:flex;align-items:center;gap:5px;margin-bottom:4px;}
 .ss-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0;}
-.ss-name{font-size:8px;flex:1;color:#4a6090;}
-.ss-bar{flex:2;height:3px;background:#0f2040;border-radius:2px;overflow:hidden;}
+.ss-name{font-size:8px;flex:1;color:#aabccc;}
+.ss-bar{flex:2;height:3px;background:#1a3060;border-radius:2px;overflow:hidden;}
 .ss-fill{height:100%;border-radius:2px;}
 .ss-pct{font-size:7px;min-width:22px;text-align:right;}
 
-.res-header{padding:32px 14px 12px;border-bottom:1px solid #0f2040;}
-.res-h-title{font-size:13px;font-weight:500;color:#fff;}
-.res-h-sub{font-size:8px;color:#4a6090;margin-top:2px;}
+.res-header{padding:32px 14px 12px;border-bottom:1px solid #1a3060;}
+.res-h-title{font-size:13px;font-weight:500;color:#ffffff;}
+.res-h-sub{font-size:8px;color:#8aabcc;margin-top:2px;}
 .res-badge{margin:10px 12px;padding:14px;border-radius:12px;border:1px solid;text-align:center;}
 .res-disease{font-size:15px;font-weight:500;margin-bottom:3px;font-family:var(--display);}
-.res-conf{font-size:8px;color:#4a6090;}
-.res-advice{margin:0 12px 8px;background:#0a1828;border-radius:10px;padding:10px 12px;border:1px solid #1a3060;}
-.ra-label{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#4a6090;margin-bottom:5px;}
-.ra-item{font-size:9px;color:#c8d8f0;padding:3px 0;border-bottom:1px solid #0f2040;display:flex;gap:5px;align-items:flex-start;}
+.res-conf{font-size:8px;color:#8aabcc;}
+.res-advice{margin:0 12px 8px;background:#0d1a38;border-radius:10px;padding:10px 12px;border:1px solid #1a3060;}
+.ra-label{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#8aabcc;margin-bottom:5px;}
+.ra-item{font-size:9px;color:#ffffff;padding:3px 0;border-bottom:1px solid #1a3060;display:flex;gap:5px;align-items:flex-start;}
 .ra-item:last-child{border:none;}
 .ra-dot{color:var(--gold3);flex-shrink:0;}
 .res-other{margin:0 12px;}
-.ro-title{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#4a6090;margin-bottom:5px;}
-.ro-row{display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #0f2040;}
+.ro-title{font-size:7px;letter-spacing:1px;text-transform:uppercase;color:#8aabcc;margin-bottom:5px;}
+.ro-row{display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #1a3060;}
 .ro-row:last-child{border:none;}
 .ro-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0;}
-.ro-name{font-size:9px;flex:1;color:#c8d8f0;}
+.ro-name{font-size:9px;flex:1;color:#ffffff;}
 .ro-status{font-size:7px;padding:1px 6px;border-radius:10px;}
 
-.phone-bar{position:absolute;bottom:0;left:0;right:0;height:52px;background:#030810;border-top:1px solid #0f2040;display:flex;align-items:center;justify-content:space-around;padding:0 8px 8px;}
+.phone-bar{position:absolute;bottom:0;left:0;right:0;height:52px;background:#030810;border-top:1px solid #1a3060;display:flex;align-items:center;justify-content:space-around;padding:0 8px 8px;}
 .pb-item{display:flex;flex-direction:column;align-items:center;gap:3px;opacity:.35;}
 .pb-item.on{opacity:1;}
 .pb-icon{width:16px;height:16px;border-radius:4px;border:1px solid;}
-.pb-label{font-size:6px;letter-spacing:.5px;color:#4a6090;}
+.pb-label{font-size:6px;letter-spacing:.5px;color:#8aabcc;}
 .pb-item.on .pb-label{color:var(--gold3);}
 
 /* COMPARE */
 .compare-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--gold);border-radius:16px;overflow:hidden;margin-bottom:80px;border:2px solid var(--gold);}
 @media(max-width:600px){.compare-strip{grid-template-columns:1fr;}}
-.cs-col{background:var(--navy);padding:22px 20px;}
+.cs-col{background:#0d1a38;padding:22px 20px;}
 .cs-head{font-size:9px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;font-weight:500;}
 .cs-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--navy3);font-size:11px;}
 .cs-row:last-child{border:none;}
-.cs-key{color:#4a6090;}
-.cs-val{color:#c8d8f0;text-align:right;}
+.cs-key{color:#8aabcc;}
+.cs-val{color:#ffffff;text-align:right;}
 
 .tagline-section{text-align:center;padding:60px 0 80px;border-top:3px solid var(--gold);}
-.tagline{font-family:var(--display);font-size:clamp(28px,5vw,64px);font-weight:900;letter-spacing:-2px;color:var(--navy);}
+.tagline{font-family:var(--display);font-size:clamp(28px,5vw,64px);font-weight:900;letter-spacing:-2px;color:#ffffff;}
 .tagline span{color:var(--gold);}
-.tagline-sub{font-size:11px;color:var(--muted);letter-spacing:3px;margin-top:14px;text-transform:uppercase;}
+.tagline-sub{font-size:11px;color:#8aabcc;letter-spacing:3px;margin-top:14px;text-transform:uppercase;}
 
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 .model-card,.phone-wrap,.cart-card{animation:fadeUp .5s ease both;}
@@ -234,6 +234,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   <div class="hero-title">Bio<em>Fusion</em>Core</div>
   <div class="hero-sub">Home · Clinic · One Platform</div>
   <div class="hero-pills">
+    <div class="pill">5 diseases</div>
     <div class="pill">5 minutes</div>
     <div class="pill">Every age</div>
     <div class="pill">₹399/month</div>
@@ -259,14 +260,14 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="hd-screen">
           <div class="hds-glow"></div>
           <div class="hds-row" style="top:14px"></div><div class="hds-row" style="top:26px"></div><div class="hds-row" style="top:38px"></div><div class="hds-row" style="top:50px"></div><div class="hds-row" style="top:62px"></div><div class="hds-row" style="top:74px"></div><div class="hds-row" style="top:86px"></div><div class="hds-row" style="top:98px"></div>
-          <div class="hds-txt" style="top:6px;color:#4a6090">BIOFUSIONCORE</div>
+          <div class="hds-txt" style="top:6px;color:#6a8aaa">BIOFUSIONCORE</div>
           <div class="hds-txt" style="top:18px;color:var(--gold3)">READY TO SCAN</div>
-          <div class="hds-txt" style="top:30px;color:#4a6090">INSERT CARTRIDGE</div>
+          <div class="hds-txt" style="top:30px;color:#6a8aaa">INSERT CARTRIDGE</div>
           <div class="hds-bar" style="top:46px;width:82%;background:var(--gold3)"></div>
-          <div class="hds-txt" style="top:54px;color:#4a6090">BATTERY 82%</div>
+          <div class="hds-txt" style="top:54px;color:#6a8aaa">BATTERY 82%</div>
           <div class="hds-txt" style="top:66px;color:var(--gold3)">BLE CONNECTED</div>
-          <div class="hds-txt" style="top:78px;color:#4a6090">APP SYNCED</div>
-          <div class="hds-txt" style="top:90px;color:#4a6090">4 SENSORS ACTIVE</div>
+          <div class="hds-txt" style="top:78px;color:#6a8aaa">APP SYNCED</div>
+          <div class="hds-txt" style="top:90px;color:#6a8aaa">4 SENSORS ACTIVE</div>
           <div class="hds-bar" style="top:100px;width:100%;background:var(--gold3);opacity:.1;animation:cscan 2s ease-in-out infinite"></div>
         </div>
         <div class="hd-led-row">
@@ -285,7 +286,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
       <div class="spec-item"><div class="spec-label">IP rating</div><div class="spec-val">IP44 splash safe</div></div>
     </div>
     <div class="plan-banner">
-      <div><div style="font-size:9px;color:#4a6090;letter-spacing:1px;margin-bottom:3px;">MONTHLY PLAN</div><div class="pb-price">₹399<span>/month</span></div></div>
+      <div><div style="font-size:9px;color:#8aabcc;letter-spacing:1px;margin-bottom:3px;">MONTHLY PLAN</div><div class="pb-price">₹399<span>/month</span></div></div>
       <div class="pb-detail">Device + 2 tests included<br>6-month minimum · ₹2,000 deposit</div>
     </div>
   </div>
@@ -300,16 +301,16 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <div class="cd-screen">
           <div class="cds-glow"></div>
           <div class="cds-row" style="top:13px"></div><div class="cds-row" style="top:25px"></div><div class="cds-row" style="top:37px"></div><div class="cds-row" style="top:49px"></div><div class="cds-row" style="top:61px"></div><div class="cds-row" style="top:73px"></div><div class="cds-row" style="top:85px"></div><div class="cds-row" style="top:97px"></div><div class="cds-row" style="top:109px"></div><div class="cds-row" style="top:121px"></div>
-          <div class="cds-txt" style="top:5px;color:#4a6090">BFC CLINIC v1.0</div>
+          <div class="cds-txt" style="top:5px;color:#6a8aaa">BFC CLINIC v1.0</div>
           <div class="cds-txt" style="top:16px;color:#4a90d9">PATIENT #2847</div>
-          <div class="cds-txt" style="top:27px;color:#4a6090">SCANNING... 64%</div>
+          <div class="cds-txt" style="top:27px;color:#6a8aaa">SCANNING... 64%</div>
           <div class="cds-scan" style="top:40px"></div>
-          <div class="cds-txt" style="top:50px;color:#4a6090">EST: 01:52 REM</div>
+          <div class="cds-txt" style="top:50px;color:#6a8aaa">EST: 01:52 REM</div>
           <div class="cds-txt" style="top:62px;color:var(--gold3)">5 SENSORS ACTIVE</div>
           <div class="cds-bar" style="top:74px;width:88%;background:var(--gold3);opacity:.4"></div>
-          <div class="cds-txt" style="top:84px;color:#4a6090">EMR: LINKED</div>
+          <div class="cds-txt" style="top:84px;color:#6a8aaa">EMR: LINKED</div>
           <div class="cds-txt" style="top:96px;color:#4a90d9">DR. SHARMA</div>
-          <div class="cds-txt" style="top:107px;color:#4a6090">WARD 3 · BED 12</div>
+          <div class="cds-txt" style="top:107px;color:#6a8aaa">WARD 3 · BED 12</div>
           <div class="cds-scan" style="top:120px;animation-delay:.5s"></div>
         </div>
         <div class="cd-right">
@@ -334,7 +335,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
       <div class="spec-item"><div class="spec-label">IP rating</div><div class="spec-val">IP54 clinic-grade</div></div>
     </div>
     <div class="plan-banner" style="border-color:#4a90d9;background:linear-gradient(135deg,#0a1a3a,#142458);">
-      <div><div style="font-size:9px;color:#4a6090;letter-spacing:1px;margin-bottom:3px;">MONTHLY PLAN</div><div class="pb-price" style="color:#4a90d9;">₹2,999<span>/month</span></div></div>
+      <div><div style="font-size:9px;color:#8aabcc;letter-spacing:1px;margin-bottom:3px;">MONTHLY PLAN</div><div class="pb-price" style="color:#4a90d9;">₹2,999<span>/month</span></div></div>
       <div class="pb-detail">20 cartridges included<br>Annual contract · PDF printer</div>
     </div>
   </div>
@@ -347,7 +348,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   <div class="sec-line"></div>
 </div>
 
-<div style="text-align:center;font-size:11px;color:var(--muted);margin-bottom:32px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.8;">Same connector on both devices. Collection method changes by age. Same biosensor chip inside every cartridge.</div>
+<div style="text-align:center;font-size:11px;color:#aabccc;margin-bottom:32px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.8;">Same connector on both devices. Collection method changes by age. Same biosensor chip inside every cartridge.</div>
 
 <div class="cartridge-row">
   <!-- BABY -->
@@ -412,9 +413,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   </div>
 </div>
 
-<div style="background:var(--navy);border:1.5px solid var(--gold);border-radius:12px;padding:16px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:0;">
+<div style="background:#0d1a38;border:1.5px solid var(--gold);border-radius:12px;padding:16px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:0;">
   <div style="width:8px;height:8px;border-radius:50%;background:var(--gold3);box-shadow:0 0 8px var(--gold3);flex-shrink:0;animation:lp 2s ease-in-out infinite;"></div>
-  <div style="font-size:12px;color:#c8d8f0;flex:1;">Same 16-pin connector on all 4 cartridge types. Same slot on Home and Clinic. <span style="color:var(--gold3);">Shelf life: 24 months at 2–8°C.</span></div>
+  <div style="font-size:12px;color:#ffffff;flex:1;">Same 16-pin connector on all 4 cartridge types. Same slot on Home and Clinic. <span style="color:var(--gold3);">Shelf life: 24 months at 2–8°C.</span></div>
 </div>
 
 <!-- APP -->
@@ -487,8 +488,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
             <div class="ss-row"><div class="ss-dot" style="background:#4a90d9"></div><div class="ss-name">Impedance</div><div class="ss-bar"><div class="ss-fill" style="width:60%;background:#4a90d9;"></div></div><div class="ss-pct" style="color:#4a90d9;">60%</div></div>
           </div>
           <div style="margin:0 12px;padding:9px 12px;background:#0a1828;border-radius:8px;border:1px solid #1a3060;display:flex;align-items:center;justify-content:space-between;">
-            <div style="font-size:9px;color:#4a6090;">Time remaining</div>
-            <div style="font-size:14px;font-weight:500;color:#fff;">1:24</div>
+            <div style="font-size:9px;color:#8aabcc;">Time remaining</div>
+            <div style="font-size:14px;font-weight:500;color:#ffffff;">1:24</div>
           </div>
         </div>
         <div class="phone-bar">
